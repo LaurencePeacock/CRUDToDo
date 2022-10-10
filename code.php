@@ -112,24 +112,17 @@ if (isset($_POST['todo'])) {
                                     }
                                     $con->close();
                                 ?>
-                                
                             </tbody>
             </table>
         </div>
 
-    <!-- <div class="container-sm mt-5">
-        <div class="row">
-            <div class="col-md-12"> -->
-                <div class="container">
+        <div class="container">
                     <form action="code.php" method="POST" class="text-center p-4" >
                         <label >Todo</label>
                         <input type="text" name="todo"  >
                         <button type="submit" name="form" class="btn btn-primary" >add</button>
                     </form>
-                </div>
-            <!-- </div>
         </div>
-    </div> -->
 
     
 </body>

@@ -28,8 +28,7 @@ if(mysqli_num_rows($query_run)){
     </head>
     <body>
         
-    </body>
-    </html>
+   
         <div class="container">
             <h5 class="text-center mt-4">Please amend the todo</h5>
             <form action="code.php" method="POST" class="text-center p-4">
@@ -39,5 +38,7 @@ if(mysqli_num_rows($query_run)){
             </form>
         </div>
     <?php
-};
-  ?>  
+    };
+    ?>  
+   </body>
+    </html>
